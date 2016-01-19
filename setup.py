@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 version = __import__('sendsms').__version__
 
 setup(
-    name="django-sendsms",
+    name="django-sendsms-pebble",
     version=version,
-    url='http://github.com/stefanfoulis/django-sendsms',
+    url='http://github.com/mypebble/django-sendsms',
     license='BSD',
     platforms=['OS Independent'],
     description="A simple API to send SMS messages.",
